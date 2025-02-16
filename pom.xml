@@ -27,6 +27,37 @@
         </dependency>
 
         <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        
+        <!--联合主键-->
+        <dependency>
+            <groupId>com.github.jeffreyning</groupId>
+            <artifactId>mybatisplus-plus</artifactId>
+            <version>1.7.4-RELEASE</version>
+        </dependency>
+
+        <!--mybatisplus 分页-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-jsqlparser</artifactId>
+            <version>3.5.10.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>3.5.10.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+        </dependency>
+        
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.83</version>
@@ -74,7 +105,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>oshi.OshiDemoApplication</mainClass>
+                    <mainClass>com.oshi.OSHIApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

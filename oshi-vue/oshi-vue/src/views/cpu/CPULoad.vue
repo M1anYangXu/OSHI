@@ -9,7 +9,7 @@
 <script setup>
 import * as echarts from 'echarts';
 import {onMounted, ref} from "vue";
-import {getCpuLoad} from "@/api/cpuloadApi.js";
+import {getCpuLoad} from "@/api/CPUloadAPI.js";
 
 
 const chartDoms = []
